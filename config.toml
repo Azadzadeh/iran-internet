@@ -12,15 +12,37 @@ defaultContentLanguageInSubdir= true
   languageName = 'پارسی'
   contentDir = 'content/fa'
   weight = 1
-[languages.en]
-  languageName = 'English'
-  contentDir = 'content/en'
-  weight = 2
 
 # Book configuration
 disablePathToLower = true
 enableGitInfo = false
 
+[menu]
+# [[menu.before]]
+[[menu.after]]
+  name = "Trojan-Go docs"
+  url = "https://azadzadeh.github.io/trojan-go/"
+  weight = 20
+
+[[menu.after]]
+  name = "Hysteria docs"
+  url = "https://hysteria.network/"
+  weight = 21
+
+[[menu.after]]
+  name = "V2ray docs"
+  url = "https://www.v2ray.com/en/index.html"
+  weight = 22
+
+[[menu.after]]
+  name = "Xray examples"
+  url = "https://github.com/XTLS/Xray-examples"
+  weight = 23
+
+[[menu.after]]
+  name = "Github"
+  url = "https://github.com/Azadzadeh/iran-internet"
+  weight = 30
 
 # Needed for mermaid/katex shortcodes
 [markup]
@@ -67,7 +89,7 @@ enableGitInfo = false
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  # BookEditPath = 'edit/main/exampleSite'
+  BookEditPath = 'edit/master'
 
   # Configure the date format used on the pages
   # - In git information

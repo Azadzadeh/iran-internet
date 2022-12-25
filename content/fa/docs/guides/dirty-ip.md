@@ -113,7 +113,7 @@ caddy file-server --domain my.domain.name --root $HOME/dummy-website/autophugo/e
 [گزینه‌های بسیاری](https://github.com/denji/awesome-http-benchmark#https-benchmark-tools) برای این امر وجود دارد.
 مثلاً ما اینجا از [oha](https://github.com/hatoo/oha) استفاده می‌کنیم که یک رابط کاربری تحت console هم دارد و روند تست بار را به صورت انیمیشن نمایش می‌دهد.
 
-![oha demo](/iran-internet/fa/docs/guides/oha-demo.gif)
+![oha demo](/iran-internet/docs/guides/oha-demo.gif)
 
 <pre dir="ltr"><code># install oha on your client
 # https://github.com/hatoo/oha/releases
@@ -169,4 +169,4 @@ oha https://my.domain.name -n 20 -c 3 -t 10sec
 {{< /hint >}}
 پس از اینکه یک زوج آی‌پی/دامنه از آزمون پاکی سربلند بیرون آمدند، حالا باید یک نرم‌افزار پراکسی امن را روی سرور نصب کنید تا active probe دیگر نتواند آن را تشخیص دهد و در *"لیست"* بگذارد.
 
-![The List](/iran-internet/fa/docs/guides/the-list.jpeg)
+![The List](/iran-internet/docs/guides/the-list.jpeg)
