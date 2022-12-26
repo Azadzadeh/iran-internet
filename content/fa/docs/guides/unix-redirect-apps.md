@@ -27,9 +27,7 @@ sudo apt install proxychains-ng
 
 کافیست `proxychains4` را با فایل کانفیگ خاصش پیش از برنامه‌ی دلخواه بخوانید تا ترافیک برنامه‌ی دلخواه از SOCKS proxy عبور کند.
 
-<pre dir="ltr"><code># install proxychains-ng
-sudo apt install proxychains-ng
-# prepend invocation of proxychains4 to my_app
+<pre dir="ltr"><code># prepend invocation of proxychains4 to my_app
 proxychains4 -f /path/to/proxychains.conf my_app --with-original "invocations"
 
 # test download speed of currently active proxy
