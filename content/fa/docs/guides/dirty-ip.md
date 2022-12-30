@@ -61,11 +61,16 @@ sudo apt install ./hugo_extended_0.109.0_linux-amd64.deb
 # make sure it's installed and available
 hugo version
 
-# choose a theme from here https://themes.gohugo.io
+# create a dir for dummy website
+mkdir -p "$HOME/dummy-website"
+
+# choose a theme from here https://themes.gohugo.io, for example:
 git clone https://github.com/kc0bfv/autophugo "$HOME/dummy-website/autophugo"
 cd "$HOME/dummy-website/autophugo/exampleSite"
-# edit config.toml to use your domain name (e.g. my.domain.name)
+
+# edit config.toml to use your domain name (e.g. my.domain.name):
 sed -i 's/example\.org/my\.domain\.name/g' config.toml
+
 rm -rf $HOME/dummy-website/autophugo/exampleSite/public/
 hugo --themesDir "../.."
 </code></pre>
@@ -136,7 +141,7 @@ oha https://my.domain.name -n 20 -c 3 -t 10sec
 
 - برای هر وبسایت تست، ۲۰ درخواست می‌فرستیم چراکه ما می‌خواهیم کیفیت دسترسی به سایت در شبکه را بیازماییم نه تکنولوژی وب-سرور یا سنگینی سایت را.
 
-- بیشینه تعداد  کارگرهایی که در هر زمان درخواست می‌کنند را به عدد ۳ محدود می‌کنیم 
+- بیشینه تعداد  کارگرهایی که در هر زمان درخواست می‌کنند را به عدد ۳ محدود می‌کنیم
 
 {{< hint info >}}
 این عدد تقریباً می‌تواند پارامتر [Concurrency MUX](https://azadzadeh.github.io/trojan-go/en/advance/mux/) را مدل کند، هرچند از آن سختگیرانه‌تر است زیرا اینجا هر درخواست در یک TLS Session مجزا صورت می‌گیرد ولی در MUX درخواست‌های موازی درون یک TLS Session مشترک انجام می‌شوند
@@ -159,7 +164,7 @@ oha https://my.domain.name -n 20 -c 3 -t 10sec
 
 پیش از هر کاری، در دشبورد دیتاسنتری که از آن خدمت می‌گیرید، یک VPS دیگر ایجاد کنید تا یک آی‌پی تازه به شما بدهد. دقت کنید تا پیدا کردن یک IP تمیز، هیچ VPSی را delete نکنید تا IP تکراری به شما ندهد!
 
-بعد از ایجاد VPS جدید، باید آزمون پاکی را دوباره اجرا کنید. 
+بعد از ایجاد VPS جدید، باید آزمون پاکی را دوباره اجرا کنید.
 یادتان باشد که در دشبورد DNS providerتان (مثلاً Cloudflare) باید آی‌پی تازه را به دامنه مربوط سازید.
 بهتر است اساساً یک زیردامنه‌ی تازه هم در همینجا ایجاد کنید چرا که ممکن است زیردامنه را هدف قرار داده‌ باشند نه IP.
 {{< /hint >}}
