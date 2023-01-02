@@ -64,14 +64,15 @@ draft: false
 # مقایسه‌‌ی ارائه‌دهندگان VPS
 
 وبسایت‌های زیر پیشنهاد‌های ارائه‌دهندگان مختلف را جمع‌آوری کرده و آن را در قالب جدول به صورت مرتب‌شده بر اساس قیمت/حافظه/ترافیک/و.. نمایش می‌دهند. کاربر می‌تواند آفرهای شرکت‌ها را مقایسه کند.
-- [lowendstock](http://www.lowendstock.com/)
-- [lowendbox](https://lowendbox.com/)
-- [lowendtalk](https://lowendtalk.com/)
+- [cheapvpslist](https://www.cheapvpslist.com/)
 - [serverhunter](https://www.serverhunter.com/)
 - [vpsbenchmarks](https://www.vpsbenchmarks.com/)
 - [vpscomp](https://vpscomp.com/servers/)
+- [lowendstock](http://www.lowendstock.com/)
+- [lowendbox](https://lowendbox.com/)
+- [lowendtalk](https://lowendtalk.com/)
 
-نمایندگان شرکت‌ها معمولاً در مناسبت‌ها (مثل کریسمس، دوشنبه‌ی سایبری و..) یا به دلایل دیگری مثل تبلیغات و جذب مشتری جدید، پیشنهادات خوبی در فروم‌ [lowendtalk](https://lowendtalk.com/) مطرح می‌کنند.
+نمایندگان شرکت‌ها معمولاً در مناسبت‌ها (مثل کریسمس، دوشنبه‌ی سایبری و..) یا به دلایل دیگری مثل تبلیغات و جذب مشتری جدید، پیشنهادات خوبی در فروم‌ [lowendtalk](https://lowendtalk.com/categories/offers) مطرح می‌کنند.
 
 راسموس لردورف یکی از طراحان زبان برنامه‌نویسی php در [پست وبلاگی‌اش](https://toys.lerdorf.com/low-cost-vps-testing) یک مقایسه‌ی عالی و قاعده‌مند بین سرویس‌ها انجام داده است.
 در [این نوشتار](https://gist.github.com/thodison/33cb0773c61036da47f081bed948dce5) یک کاربر اقدام به مقایسه‌ی سرویس‌های VPS ارزان (زیر ۵ دلار) نموده است.
