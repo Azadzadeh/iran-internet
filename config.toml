@@ -20,29 +20,30 @@ enableGitInfo = false
 [menu]
 # [[menu.before]]
 [[menu.after]]
+  name = "Donate"
+  url = "https://github.com/Azadzadeh/iran-internet#donation"
+  weight = 20
+
+[[menu.after]]
   name = "Trojan-Go docs"
   url = "https://azadzadeh.github.io/trojan-go/"
-  weight = 20
+  weight = 21
 
 [[menu.after]]
   name = "Hysteria docs"
   url = "https://hysteria.network/"
-  weight = 21
+  weight = 22
 
 [[menu.after]]
   name = "V2ray docs"
   url = "https://www.v2ray.com/en/index.html"
-  weight = 22
+  weight = 23
 
 [[menu.after]]
   name = "Xray examples"
   url = "https://github.com/XTLS/Xray-examples"
-  weight = 23
+  weight = 24
 
-[[menu.after]]
-  name = "Github"
-  url = "https://github.com/Azadzadeh/iran-internet"
-  weight = 30
 
 # Needed for mermaid/katex shortcodes
 [markup]
