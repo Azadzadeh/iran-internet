@@ -36,7 +36,16 @@ tags: ["v2ray", "xray", "trojan", "trojan-go", "hysteria", "gfw", "ایران", 
   - پشتیبانی و تنظیم کردن BBR
   - نداشتن رابط کاربری در بستر وب (پانل)
 
-- اگر یک ارتباط ssh با سروری در خارج دارید و به ساده‌ترین روش می‌خواهید یک پراکسی SOCKS درست کنید، [این راهنما](https://github.com/HirbodBehnam/V2Ray-Installer/blob/master/Guides/SSH.md) را دنبال نمایید.
+- اگر یک ارتباط `ssh` با سروری در خارج دارید و به ساده‌ترین روش می‌خواهید یک پراکسی `SOCKS` درست کنید:
+
+<pre dir="ltr"><code># create a SOCKS5 proxy availble on port 1080
+ssh -v -C -N -D 1080 -p 2200 root@11.22.333.444
+</code></pre>
+
+دقت کنید که در تنظیمات Connection مرورگرتان، تنظیمات را روی Manual و پورت را روی 1080 تنظیم کنید.
+تیک SOCKS5 را نیز انتخاب کنید.
+همچنین مهم است که درخواست‌های DNS را هم از طریق همین پراکسی ارسال کنید (تیکش را فعال کنید).
+
 - [این راهنما](https://github.com/iranxray/hope) هم توضیحات و مقالات جامعی به فارسی دارد.
 - در یوتیوب کانال‌هایی در این رابطه تولید محتوا می‌کنند که بعضی روش‌ها را به صورت تصویری در محیط ویندوز و به فارسی اجرا می‌کنند: مثل [MrBluepoint](https://www.youtube.com/@MrBluepoint) و  [4rahecomputerfa](https://www.youtube.com/@4rahecomputerfa)
 
