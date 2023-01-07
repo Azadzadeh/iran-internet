@@ -1,0 +1,104 @@
+<!doctype html><html lang=fa-ir dir=rtl><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="تنظیم dns در اوبونتو"><meta property="og:description" content><meta property="og:type" content="website"><meta property="og:url" content="https://azadzadeh.github.io/iran-internet/tags/%D8%AA%D9%86%D8%B8%DB%8C%D9%85-dns-%D8%AF%D8%B1-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/"><title>تنظیم dns در اوبونتو | اینترنت ایران</title><link rel=manifest href=/iran-internet/manifest.json><link rel=icon href=/iran-internet/favicon.png type=image/x-icon><link rel=stylesheet href=/iran-internet/book.min.bb111fce06151c4832a363c50976a4662c646ee31a564887a56130f2ed35272a.css integrity="sha256-uxEfzgYVHEgyo2PFCXakZixkbuMaVkiHpWEw8u01Jyo=" crossorigin=anonymous><script defer src=/iran-internet/flexsearch.min.js></script>
+<script defer src=/iran-internet/fa.search.min.ff2425471f3164f578ec258e2e40171019f6955cfa0ab7088ca7aa89f9e11779.js integrity="sha256-/yQlRx8xZPV47CWOLkAXEBn2lVz6CrcIjKeqifnhF3k=" crossorigin=anonymous></script>
+<script defer src=/iran-internet/sw.min.c9ae79605996fd87fe28b8ce3a321877cd2bcf610687bcc944667b290c6d3ca1.js integrity="sha256-ya55YFmW/Yf+KLjOOjIYd80rz2EGh7zJRGZ7KQxtPKE=" crossorigin=anonymous></script>
+<link rel=alternate type=application/rss+xml href=https://azadzadeh.github.io/iran-internet/tags/%D8%AA%D9%86%D8%B8%DB%8C%D9%85-dns-%D8%AF%D8%B1-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/index.xml title="اینترنت ایران"></head><body dir=rtl><input type=checkbox class="hidden toggle" id=menu-control>
+<input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/iran-internet/><span>اینترنت ایران</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=جستجو aria-label=جستجو maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul><li class=book-section-flat><span>راهنمایی‌ها</span><ul><li><a href=/iran-internet/docs/guides/circumvention/>تکنولوژی‌های عبور از فیلترینگ</a></li><li><a href=/iran-internet/docs/guides/vps-providers/>گزینش و مقایسه‌ی ارائه‌دهندگان VPS</a></li><li><a href=/iran-internet/docs/guides/dirty-ip/>آزمون کثیف نبودن IP</a></li><li><a href=/iran-internet/docs/guides/speedtest/>آزمون سرعت و پهنای‌باند</a></li><li><a href=/iran-internet/docs/guides/unix-redirect-apps/>گذراندن ترافیک برنامه‌ها از SOCKS در لینوکس</a></li><li><a href=/iran-internet/docs/guides/sanctions/>دور زدن تحریم‌های خارجی</a></li></ul></li></ul><ul><li><a href=https://github.com/Azadzadeh/iran-internet#donation target=_blank rel=noopener>Donate</a></li><li><a href=https://azadzadeh.github.io/trojan-go/ target=_blank rel=noopener>Trojan-Go docs</a></li><li><a href=https://hysteria.network/ target=_blank rel=noopener>Hysteria docs</a></li><li><a href=https://www.v2ray.com/en/index.html target=_blank rel=noopener>V2ray docs</a></li><li><a href=https://github.com/XTLS/Xray-examples target=_blank rel=noopener>Xray examples</a></li></ul></nav><script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script></div></aside><div class=book-page><header class=book-header><div class="flex align-center justify-between"><label for=menu-control><img src=/iran-internet/svg/menu.svg class=book-icon alt=Menu></label>
+<strong>تنظیم dns در اوبونتو</strong>
+<label for=toc-control><img src=/iran-internet/svg/toc.svg class=book-icon alt="Table of Contents"></label></div><aside class="hidden clearfix"><nav><ul><li class=book-section-flat><strong>Categories</strong><ul></ul></li><li class=book-section-flat><strong>Tags</strong><ul><li class="flex justify-between"><a href=/iran-internet/tags/cheap-vps/>cheap vps</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/dirty-IP/>dirty IP</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/dns/>dns</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/gfw/>gfw</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/hysteria/>hysteria</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/Quality-of-Serivce/>Quality of Serivce</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/sanction/>sanction</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/socks/>socks</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/speedtest/>speedtest</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/TCP-RST/>TCP RST</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/trojan/>trojan</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/trojan-go/>trojan-go</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/v2ray/>v2ray</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/vps/>vps</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/xray/>xray</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A2%DB%8C-%D9%BE%DB%8C-%DA%A9%D8%AB%DB%8C%D9%81/>آی پی کثیف</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/>اوبونتو</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/>ایران</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/>اینترنت ایران</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A8%D9%84%D8%A7%DA%A9-%D8%B4%D8%AF%D9%86-IP/>بلاک شدن IP</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-vps/>بهترین vps</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%BE%D8%B1%D8%A7%DA%A9%D8%B3%DB%8C/>پراکسی</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>تحریم</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>تحریم لینوکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D8%B3%D8%AA-%D8%B3%D8%B1%D8%B9%D8%AA/>تست سرعت</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D9%86%D8%B8%DB%8C%D9%85-dns-%D8%AF%D8%B1-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/>تنظیم dns در اوبونتو</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AF%D9%88%D8%B1-%D8%B2%D8%AF%D9%86-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>دور زدن تحریم</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B1%D8%A7%D9%87%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86/>راه‌اندازی فیلترشکن</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%A7%DA%A9%D8%B3/>ساکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B3%D8%A7%D9%86%D8%B3%D9%88%D8%B1/>سامانه سانسور</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%B1%D8%B9%D8%AA-%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86/>سرعت فیلترشکن</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%B1%D9%88%D8%B1-%D8%A7%D8%B1%D8%B2%D8%A7%D9%86/>سرور ارزان</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%B1%D9%88%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>سرور لینوکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B6%D8%AF%D9%81%DB%8C%D9%84%D8%AA%D8%B1/>ضدفیلتر</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B9%D8%A8%D9%88%D8%B1-%D8%A7%D8%B2-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>عبور از تحریم</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B9%D8%A8%D9%88%D8%B1-%D8%AA%D8%B1%D8%A7%D9%81%DB%8C%DA%A9-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%87%D8%A7-%D8%A7%D8%B2-%D9%BE%D8%B1%D8%A7%DA%A9%D8%B3%DB%8C/>عبور ترافیک برنامه‌ها از پراکسی</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1/>فیلتر</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86/>فیلترشکن</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>فیلترشکن لینوکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1%DB%8C%D9%86%DA%AF/>فیلترینگ</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%84%DB%8C%D8%B3%D8%AA/>لیست</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>لینوکس</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%85%D8%B3%D8%AF%D9%88%D8%AF-IP/>مسدود IP</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%88%DB%8C%D9%BE%DB%8C%D8%A7%D8%B3/>وی‌پی‌اس</a>
+<span>1</span></li></ul></li></ul></nav></aside></header><article class="markdown book-post"><h2><a href=/iran-internet/docs/guides/sanctions/>دور زدن تحریم‌های خارجی</a></h2><div><a href=/iran-internet/tags/%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>تحریم</a>,
+<a href=/iran-internet/tags/%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>تحریم لینوکس</a>,
+<a href=/iran-internet/tags/%D8%B9%D8%A8%D9%88%D8%B1-%D8%A7%D8%B2-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>عبور از تحریم</a>,
+<a href=/iran-internet/tags/%D8%AF%D9%88%D8%B1-%D8%B2%D8%AF%D9%86-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>دور زدن تحریم</a>,
+<a href=/iran-internet/tags/sanction/>sanction</a>,
+<a href=/iran-internet/tags/dns/>dns</a>,
+<a href=/iran-internet/tags/%D8%AA%D9%86%D8%B8%DB%8C%D9%85-dns-%D8%AF%D8%B1-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/>تنظیم dns در اوبونتو</a></div><p>دور زدن تحریم‌های خارجی # گاهی مهندسان برنامه نویس ایرانی نیاز به دسترسی به سایت‌ها و خدماتی دارند که فیلتر نشده‌اند ولی تحریم شده‌اند (مثلاً docker، VirtualBox, etc)
+برای اینکه کل برنامه‌های تحت سیستم را از تحریم عبور دهید می‌توانید از سرویس تغییر DNS شکن و بگذر استفاده کنید.
+# set your system's DNS to # 178.22.122.100 or 185.51.200.2 for shecan # 185.55.226.26 or 185.55.225.25 for begzar # if systemd sets DNS in your Linux distribution: sudo systemd-resolve -i enp0s25 --set-dns="
+<a href=/iran-internet/docs/guides/sanctions/>...</a></p></article><footer class=book-footer><div class="flex flex-wrap justify-between"></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script><script data-goatcounter=https://iran-internet.goatcounter.com/count async src=//gc.zgo.at/count.js></script></footer><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav><ul><li class=book-section-flat><strong>Categories</strong><ul></ul></li><li class=book-section-flat><strong>Tags</strong><ul><li class="flex justify-between"><a href=/iran-internet/tags/cheap-vps/>cheap vps</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/dirty-IP/>dirty IP</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/dns/>dns</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/gfw/>gfw</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/hysteria/>hysteria</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/Quality-of-Serivce/>Quality of Serivce</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/sanction/>sanction</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/socks/>socks</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/speedtest/>speedtest</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/TCP-RST/>TCP RST</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/trojan/>trojan</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/trojan-go/>trojan-go</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/v2ray/>v2ray</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/vps/>vps</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/xray/>xray</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A2%DB%8C-%D9%BE%DB%8C-%DA%A9%D8%AB%DB%8C%D9%81/>آی پی کثیف</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/>اوبونتو</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/>ایران</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/>اینترنت ایران</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A8%D9%84%D8%A7%DA%A9-%D8%B4%D8%AF%D9%86-IP/>بلاک شدن IP</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%A8%D9%87%D8%AA%D8%B1%DB%8C%D9%86-vps/>بهترین vps</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%BE%D8%B1%D8%A7%DA%A9%D8%B3%DB%8C/>پراکسی</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>تحریم</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D8%AD%D8%B1%DB%8C%D9%85-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>تحریم لینوکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D8%B3%D8%AA-%D8%B3%D8%B1%D8%B9%D8%AA/>تست سرعت</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AA%D9%86%D8%B8%DB%8C%D9%85-dns-%D8%AF%D8%B1-%D8%A7%D9%88%D8%A8%D9%88%D9%86%D8%AA%D9%88/>تنظیم dns در اوبونتو</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%AF%D9%88%D8%B1-%D8%B2%D8%AF%D9%86-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>دور زدن تحریم</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B1%D8%A7%D9%87%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86/>راه‌اندازی فیلترشکن</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%A7%DA%A9%D8%B3/>ساکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B3%D8%A7%D9%86%D8%B3%D9%88%D8%B1/>سامانه سانسور</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%B1%D8%B9%D8%AA-%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86/>سرعت فیلترشکن</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%B1%D9%88%D8%B1-%D8%A7%D8%B1%D8%B2%D8%A7%D9%86/>سرور ارزان</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B3%D8%B1%D9%88%D8%B1-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>سرور لینوکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B6%D8%AF%D9%81%DB%8C%D9%84%D8%AA%D8%B1/>ضدفیلتر</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B9%D8%A8%D9%88%D8%B1-%D8%A7%D8%B2-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85/>عبور از تحریم</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D8%B9%D8%A8%D9%88%D8%B1-%D8%AA%D8%B1%D8%A7%D9%81%DB%8C%DA%A9-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%D9%87%D8%A7-%D8%A7%D8%B2-%D9%BE%D8%B1%D8%A7%DA%A9%D8%B3%DB%8C/>عبور ترافیک برنامه‌ها از پراکسی</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1/>فیلتر</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86/>فیلترشکن</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1%D8%B4%DA%A9%D9%86-%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>فیلترشکن لینوکس</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%81%DB%8C%D9%84%D8%AA%D8%B1%DB%8C%D9%86%DA%AF/>فیلترینگ</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%84%DB%8C%D8%B3%D8%AA/>لیست</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%84%DB%8C%D9%86%D9%88%DA%A9%D8%B3/>لینوکس</a>
+<span>2</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%85%D8%B3%D8%AF%D9%88%D8%AF-IP/>مسدود IP</a>
+<span>1</span></li><li class="flex justify-between"><a href=/iran-internet/tags/%D9%88%DB%8C%D9%BE%DB%8C%D8%A7%D8%B3/>وی‌پی‌اس</a>
+<span>1</span></li></ul></li></ul></nav></div></aside></main></body></html>
