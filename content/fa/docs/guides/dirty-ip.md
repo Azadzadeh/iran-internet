@@ -2,6 +2,7 @@
 title: "آزمون کثیف نبودن IP"
 draft: false
 weight: 3
+tags: ["آی پی کثیف", "dirty IP", "مسدود IP", "بلاک شدن IP", "لیست", "TCP RST", "Quality of Serivce"]
 ---
 
 # بررسی کثیف نبودن IP
