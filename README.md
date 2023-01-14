@@ -5,6 +5,10 @@ methods with a focus on Iran, for a more technical audience.
 The commands are assumed to be run on a UNIX-like operating system (GNU/Linux,
 Android, MacOS, WSL/WSL2, etc)
 
+<p align="center">
+<img src="assets/dpi-meme.jpeg" alt="I-Hate-DPI" width="600"/>
+</p>
+
 ## Build
 `hugo --minify`
 
