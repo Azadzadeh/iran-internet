@@ -13,6 +13,7 @@ Android, MacOS, WSL/WSL2, etc)
 `hugo --minify`
 
 ## Donation
+Please read [usage terms](content/fa/docs/terms/_index.md) before donating.
 
 XMR: `84RcKGbiQXTDdE6muAVNXZTKVcvMdrav3jdcRbfu4uNJB8eZCqMzP2Mi7U3GH3rra4GfJT2RMF7mdcTc2yXqZQEN5wmjEkA`
 
