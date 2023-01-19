@@ -78,7 +78,7 @@ enableGitInfo = false
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://codeberg.com/Azadzadeh/iran-internet'
+  BookRepo = 'https://codeberg.org/Azadzadeh/iran-internet'
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
@@ -90,7 +90,7 @@ enableGitInfo = false
   # Enable "Edit this page" links for 'doc' page type.
   # Disabled by default. Uncomment to enable. Requires 'BookRepo' param.
   # Edit path must point to root directory of repo.
-  BookEditPath = 'edit/master'
+  BookEditPath = '_edit/master'
 
   # Configure the date format used on the pages
   # - In git information
