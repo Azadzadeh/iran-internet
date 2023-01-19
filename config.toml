@@ -1,4 +1,4 @@
-baseURL = 'https://azadzadeh.github.io/iran-internet/'
+baseURL = 'https://azadzadeh.codeberg.page/iran-internet/'
 title = 'اینترنت ایران'
 theme = 'hugo-book'
 
@@ -20,8 +20,8 @@ enableGitInfo = false
 [menu]
 # [[menu.before]]
 [[menu.after]]
-  name = "Donate"
-  url = "https://github.com/Azadzadeh/iran-internet#donation"
+  name = "Source"
+  url = "https://codeberg.org/Azadzadeh/iran-internet"
   weight = 20
 
 [[menu.after]]
@@ -78,7 +78,7 @@ enableGitInfo = false
 
   # Set source repository location.
   # Used for 'Last Modified' and 'Edit this page' links.
-  BookRepo = 'https://github.com/Azadzadeh/iran-internet'
+  BookRepo = 'https://codeberg.com/Azadzadeh/iran-internet'
 
   # (Optional, default 'commit') Specifies commit portion of the link to the page's last modified
   # commit hash for 'doc' page type.
