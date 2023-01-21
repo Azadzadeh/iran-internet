@@ -1,4 +1,4 @@
-baseURL = 'https://azadzadeh.codeberg.page/iran-internet/'
+baseURL = 'https://iran-internet.netlify.app'
 title = 'اینترنت ایران'
 theme = 'hugo-book'
 
