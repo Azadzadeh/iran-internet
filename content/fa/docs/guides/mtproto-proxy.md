@@ -8,7 +8,7 @@ tags: ["proxy", "پراکسی", "telegram", "تلگرام", "MTProto", "پروک
 # آموزش ساختن پروکسی MTProto تلگرام
 در این نوشتار، یک پراکسی با پروتکل MTProto را گام به گام می‌سازیم.
 
-![MTProto-chad](/iran-internet/docs/guides/mtproto-chad.jpeg)
+![MTProto-chad](/docs/guides/mtproto-chad.jpeg)
 
 
 ## انواع پیاده‌سازی‌ها
